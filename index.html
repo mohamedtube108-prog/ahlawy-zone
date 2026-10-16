@@ -1,58 +1,567 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#a90018"><meta name="description" content="Ahlawy Zone — عالم الأهلي في مكان واحد"><meta name="color-scheme" content="dark"><meta property="og:title" content="Ahlawy Zone | كل الحكاية أهلي"><meta property="og:description" content="أخبار الأهلي، المباريات، الأساطير، اللاعبين وتحديات الجمهور في مكان واحد.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#a80016">
+<meta name="description" content="Ahlawy Zone — عالم الأهلي المصري. أخبار، مباريات، لاعبين، تاريخ وبطولات.">
 <title>Ahlawy Zone | عالم الأهلي</title>
 <style>
-:root{--red:#e5092d;--red2:#a8001b;--bg:#08090c;--panel:#111319;--panel2:#171a22;--line:#292d38;--muted:#a4a8b4;--white:#f7f7fa;--gold:#f0c36a}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#3b0713 0,transparent 36%),var(--bg);color:var(--white);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.65}button,input{font:inherit}button{cursor:pointer}.wrap{max-width:1120px;margin:auto;padding:0 16px}.topbar{position:sticky;top:0;z-index:20;background:#090a0deF;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}.topinner{height:66px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.2px}.crest{width:42px;height:42px;border-radius:13px;background:linear-gradient(145deg,#ff2444,#8e0019);display:grid;place-items:center;box-shadow:0 8px 24px #e5092d30;font-size:22px}.brand-name{font-size:18px;line-height:1.1}.brand-name small{display:block;font-size:10px;color:#ff6b80;letter-spacing:2px;margin-top:3px}.top-actions{display:flex;gap:8px}.iconbtn{border:1px solid var(--line);color:white;background:var(--panel);border-radius:12px;width:40px;height:40px}.hero{padding:27px 0 18px}.hero-card{overflow:hidden;position:relative;min-height:250px;border:1px solid #ffffff15;border-radius:24px;padding:27px 23px;background:linear-gradient(110deg,#13070b 0%,#250711 50%,#101116 100%)}.hero-card:before{content:'الأهلي';position:absolute;left:-25px;bottom:-75px;font-weight:1000;font-size:clamp(95px,21vw,220px);color:#ffffff06;transform:rotate(-8deg);pointer-events:none}.hero-glow{position:absolute;width:260px;height:260px;border-radius:50%;background:#ed092d26;filter:blur(28px);left:5%;top:-70px}.hero-content{position:relative;z-index:1;max-width:600px}.eyebrow{display:inline-flex;align-items:center;gap:7px;color:#ff8797;background:#e5092d18;border:1px solid #e5092d40;padding:5px 10px;border-radius:99px;font-size:12px;font-weight:700}.live-dot{width:7px;height:7px;border-radius:50%;background:#ff2b4e;box-shadow:0 0 0 4px #ff2b4e20}.hero h1{font-size:clamp(29px,6vw,49px);line-height:1.15;margin:15px 0 9px;font-weight:950}.hero h1 span{color:var(--red)}.hero p{color:#c6c7cf;max-width:510px;margin:0 0 18px;font-size:14px}.btn-primary{border:0;border-radius:12px;padding:11px 17px;background:linear-gradient(135deg,#f31a3d,#b60020);color:white;font-weight:800;box-shadow:0 7px 22px #e5092d30}.btn-secondary{border:1px solid #ffffff24;border-radius:12px;padding:10px 14px;background:#ffffff08;color:#fff;font-weight:700}.hero-buttons{display:flex;flex-wrap:wrap;gap:9px}.section{padding:18px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:13px}.section-head h2{font-size:20px;margin:0;font-weight:900}.section-head p{margin:2px 0 0;color:var(--muted);font-size:12px}.tag{font-size:11px;color:#ff8395;background:#e5092d18;padding:4px 8px;border-radius:8px;font-weight:800}.navrow{display:flex;gap:8px;overflow:auto;padding:4px 0 12px;scrollbar-width:none}.navrow::-webkit-scrollbar{display:none}.navitem{white-space:nowrap;background:var(--panel);color:#b9bdc8;border:1px solid var(--line);padding:9px 14px;border-radius:12px;font-weight:750;font-size:13px}.navitem.active{color:white;background:#e5092d22;border-color:#e5092d99;box-shadow:inset 0 0 0 1px #e5092d20}.page{display:none;animation:fade .22s ease}.page.active{display:block}@keyframes fade{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:none}}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.card{background:linear-gradient(145deg,#15171e,#0f1015);border:1px solid var(--line);border-radius:18px;overflow:hidden;min-width:0}.cover{height:125px;position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 50% 25%,#7e1229,#220811 60%,#111217)}.cover:before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(125deg,transparent 0 18px,#ffffff06 19px 20px)}.cover .ball{font-size:55px;filter:drop-shadow(0 12px 14px #0008);position:relative}.cover .cover-label{position:absolute;right:10px;top:10px;background:#090a0dbb;border:1px solid #ffffff1a;border-radius:7px;padding:3px 7px;font-size:10px;color:#fff}.card-body{padding:13px}.card h3{font-size:15px;line-height:1.45;margin:6px 0 7px}.card p{color:#b5b8c2;font-size:12px;margin:0}.meta{display:flex;align-items:center;justify-content:space-between;gap:7px;color:#9297a4;font-size:11px;margin-top:12px}.text-link{background:none;border:0;color:#ff637b;font-weight:800;padding:0}.feature-card{display:grid;grid-template-columns:100px 1fr;gap:13px;padding:12px;align-items:center}.mini-cover{height:95px;border-radius:13px;background:linear-gradient(145deg,#7d1026,#16070c);display:grid;place-items:center;font-size:39px}.feature-card h3{margin:0 0 5px;font-size:15px}.feature-card p{margin:0;color:#b7bac4;font-size:12px}.stack{display:grid;gap:10px}.searchbox{display:flex;gap:8px;margin-bottom:14px}.searchbox input{min-width:0;flex:1;background:#101218;border:1px solid var(--line);border-radius:12px;padding:11px 13px;color:white;outline:none}.searchbox input:focus{border-color:#e5092d}.match-card{padding:17px;background:linear-gradient(135deg,#171921,#101116);border:1px solid var(--line);border-radius:18px}.match-top{display:flex;justify-content:space-between;align-items:center;color:#aeb2bf;font-size:11px;gap:8px}.match-teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;text-align:center;padding:17px 0}.team{font-weight:850;font-size:13px}.team-badge{width:51px;height:51px;border-radius:16px;display:grid;place-items:center;margin:0 auto 6px;background:#e5092d1c;border:1px solid #e5092d45;font-size:25px}.versus{color:#ff7488;font-size:12px;font-weight:900}.match-note{font-size:11px;color:#969ba8;text-align:center;border-top:1px solid var(--line);padding-top:10px}.disclaimer{font-size:11px;color:#888e9b;margin:12px 2px}.legend-card .cover{height:155px;background:radial-gradient(circle at 50% 30%,#e7ad4b55,#3b250d 40%,#111217)}.legend-card .ball{font-size:60px}.player-card .cover{background:radial-gradient(circle at 50% 25%,#6c1729,#171016 65%)}.quizbox{background:linear-gradient(145deg,#171921,#101116);border:1px solid var(--line);border-radius:20px;padding:20px}.quiz-progress{height:5px;background:#2a2d36;border-radius:20px;overflow:hidden;margin:13px 0 20px}.quiz-progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,#ff3858,#a6001c);transition:width .2s}.quiz-q{font-size:19px;font-weight:850;margin:0 0 15px}.answers{display:grid;gap:9px}.answer{background:#1b1e27;color:#e9eaf0;text-align:right;border:1px solid #303440;padding:12px 13px;border-radius:12px}.answer:hover,.answer:focus{border-color:#e5092d;background:#e5092d16}.answer.correct{border-color:#2cba79;background:#123527}.answer.wrong{border-color:#ed4560;background:#3a151d}.quiz-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px;color:#a6abb7;font-size:12px}.result{text-align:center;padding:20px 8px}.result .big{font-size:54px}.result h3{font-size:24px;margin:5px}.empty{display:none;text-align:center;color:#9da2af;padding:25px}.footer{margin-top:28px;border-top:1px solid var(--line);padding:24px 0 90px;color:#8d92a0;font-size:12px}.footer strong{color:#ff617a}.bottom-nav{position:fixed;z-index:30;bottom:0;left:0;right:0;background:#0b0c10f2;backdrop-filter:blur(14px);border-top:1px solid #ffffff13;display:none;padding:8px max(12px,env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom));grid-template-columns:repeat(5,1fr);gap:3px}.bottom-nav button{border:0;background:none;color:#858a97;display:grid;justify-items:center;gap:1px;font-size:10px;padding:5px 0}.bottom-nav button span:first-child{font-size:19px}.bottom-nav button.active{color:#ff5c75}.toast{position:fixed;z-index:60;bottom:85px;left:50%;transform:translateX(-50%);background:#f5f5f7;color:#101116;border-radius:11px;padding:10px 15px;font-size:13px;font-weight:750;box-shadow:0 8px 30px #0007;display:none;max-width:90vw}.toast.show{display:block}.fan-layout{display:grid;grid-template-columns:1fr 1fr;gap:14px}.fan-panel{background:linear-gradient(145deg,#171921,#101116);border:1px solid var(--line);border-radius:18px;padding:17px;min-width:0}.fan-panel h3{margin:0 0 8px;font-size:16px}.fan-panel p{color:#aeb2bf;font-size:12px;margin:0 0 12px}.poll-options{display:grid;gap:8px}.poll-option{display:flex;align-items:center;gap:9px;text-align:right;background:#1b1e27;border:1px solid #303440;border-radius:12px;color:#eee;padding:10px 12px}.poll-option.selected{border-color:#e5092d;background:#e5092d18}.poll-option .poll-count{margin-right:auto;color:#ff8497;font-size:11px}.fan-form{display:grid;gap:9px}.fan-form input,.fan-form textarea{width:100%;background:#0d0f14;border:1px solid #303440;border-radius:11px;padding:11px;color:white;outline:none}.fan-form textarea{resize:vertical;min-height:82px}.fan-post{border:1px solid #303440;background:#111319;border-radius:12px;padding:12px;margin-top:9px}.fan-post strong{color:#ff7c91}.fan-post p{margin:5px 0 0;white-space:pre-wrap;overflow-wrap:anywhere}.saved-note{font-size:11px;color:#969ba8;margin-top:10px}.utility-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.small-btn{border:1px solid #343844;border-radius:10px;background:#20232c;color:white;padding:8px 11px;font-weight:700;font-size:12px}.small-btn.danger{color:#ff9aaa;border-color:#6b2935}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:13px}.stat-chip{background:#ffffff08;border:1px solid #ffffff12;border-radius:12px;padding:12px;text-align:center}.stat-chip b{display:block;color:#ff6c84;font-size:21px}.stat-chip span{color:#aeb2bf;font-size:11px}@media(max-width:700px){.fan-layout{grid-template-columns:1fr}.stat-grid{gap:7px}}@media(max-width:700px){.wrap{padding:0 13px}.topinner{height:60px}.brand-name{font-size:16px}.hero{padding-top:17px}.hero-card{min-height:260px;padding:22px 18px;border-radius:20px}.hero p{font-size:13px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cover{height:112px}.card-body{padding:11px}.card h3{font-size:13px}.section-head h2{font-size:18px}.bottom-nav{display:grid}.footer{padding-bottom:105px}.feature-card{grid-template-columns:83px 1fr}.mini-cover{height:86px}.quizbox{padding:16px}.quiz-q{font-size:17px}}@media(max-width:360px){.grid{grid-template-columns:1fr}.cover{height:145px}.hero h1{font-size:28px}.team{font-size:11px}.team-badge{width:43px;height:43px}}
+:root{
+ --red:#e30620;--darkred:#8d0014;--bg:#090a0d;
+ --panel:#14161b;--panel2:#1c1f26;--text:#f7f7f8;
+ --muted:#a7aab3;--line:#30323a;--gold:#f5c45e;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--text);
+ font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.7}
+button,input,select{font:inherit}
+button,a{touch-action:manipulation}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible{
+ outline:2px solid var(--gold);outline-offset:3px}
+.topline{height:4px;background:linear-gradient(90deg,#5e0010,var(--red),#ff586a)}
+header{position:sticky;top:0;z-index:20;background:#0c0d11f5;
+ backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.navwrap{max-width:1200px;margin:auto;padding:10px 16px}
+.brandrow{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:950;font-size:21px}
+.logo{width:43px;height:43px;border-radius:13px;display:grid;place-items:center;
+ background:linear-gradient(145deg,#fa2037,#850014);box-shadow:0 5px 22px #e306203b;
+ font-size:23px}
+.brand small{display:block;font-size:10px;color:var(--muted);letter-spacing:1px}
+.actions{display:flex;gap:8px}
+.iconbtn,.btn{border:1px solid var(--line);background:var(--panel2);color:white;
+ border-radius:10px;padding:9px 12px}
+.btn.primary{background:var(--red);border-color:var(--red);font-weight:800}
+.btn:hover,.iconbtn:hover{filter:brightness(1.15)}
+nav{display:flex;gap:8px;overflow-x:auto;padding:12px 0 2px;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:none;padding:7px 13px;border-radius:9px;color:#c8c9ce;font-size:13px}
+nav a:hover,nav a.active{background:var(--red);color:white}
+main{max-width:1200px;margin:auto;padding:20px 16px 100px}
+.hero{position:relative;overflow:hidden;border:1px solid #ffffff15;border-radius:22px;
+ padding:clamp(25px,6vw,65px);min-height:330px;
+ background:radial-gradient(ellipse at 85% 10%,#e306204b,transparent 45%),
+ linear-gradient(120deg,#19080d,#111217 65%,#2b0810)}
+.hero:after{content:"AHLY";position:absolute;left:-8px;bottom:-55px;
+ font-size:clamp(100px,24vw,240px);font-weight:1000;color:#ffffff08;
+ line-height:1;pointer-events:none}
+.eyebrow{color:#ff6577;font-size:12px;font-weight:900;letter-spacing:2px}
+.hero h1{font-size:clamp(34px,6vw,64px);line-height:1.2;margin:12px 0}
+.hero p{color:#c3c3cc;max-width:540px}
+.hero .btn{display:inline-block;margin-top:10px}
+.hero-badge{display:inline-flex;border:1px solid #ff425a66;background:#e306201b;
+ padding:5px 10px;border-radius:100px;font-size:12px;color:#ff9aa7}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:15px 0 30px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:13px;
+ padding:13px;text-align:center}
+.stat strong{display:block;color:#ff5368;font-size:22px}
+.stat span{font-size:11px;color:var(--muted)}
+.section{margin-top:36px}
+.sectionhead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:15px}
+.sectionhead h2{margin:0;font-size:23px}
+.sectionhead h2:before{content:"";display:inline-block;width:4px;height:22px;
+ background:var(--red);margin-left:10px;vertical-align:middle;border-radius:4px}
+.sub{color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card{min-width:0;overflow:hidden;border:1px solid var(--line);
+ border-radius:15px;background:var(--panel);transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:#8c3440}
+.cover{height:130px;display:grid;place-items:center;font-size:47px;
+ background:radial-gradient(circle at 70% 20%,#e306203b,transparent 55%),#1d1117}
+.cardbody{padding:14px}
+.tag{font-size:10px;color:#ff7c8b;font-weight:850}
+.card h3{font-size:16px;line-height:1.5;margin:6px 0}
+.card p{font-size:12px;color:var(--muted);margin:5px 0 12px}
+.card button{width:100%;text-align:center}
+.searchrow{display:flex;gap:9px;margin:18px 0}
+.searchrow input,.field{width:100%;min-width:0;background:var(--panel);
+ border:1px solid var(--line);color:white;border-radius:11px;padding:12px}
+.match{padding:16px;display:flex;align-items:center;gap:12px;justify-content:space-between}
+.teams{display:flex;align-items:center;gap:12px;font-weight:850}
+.team{display:flex;flex-direction:column;align-items:center;min-width:65px;text-align:center}
+.team .emblem{font-size:28px}
+.vs{color:var(--muted);font-size:12px}
+.matchinfo{text-align:left;font-size:11px;color:var(--muted)}
+.pill{display:inline-block;padding:4px 8px;border-radius:7px;background:#282a31;
+ font-size:10px;color:#ddd}
+.pill.red{background:#50101b;color:#ff9daa}
+.notice{padding:14px;border:1px solid #5c4523;border-radius:12px;
+ background:#2a2114;color:#e9d6a9;font-size:12px}
+.list{display:grid;gap:10px}
+.listitem{padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.listitem h3{margin:0 0 4px;font-size:15px}
+.listitem p{margin:0;color:var(--muted);font-size:12px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.filters button{border:1px solid var(--line);background:var(--panel);color:white;
+ border-radius:100px;padding:7px 13px;font-size:12px}
+.filters button.active{background:var(--red);border-color:var(--red)}
+.player{padding:16px;text-align:center}
+.player .avatar{height:85px;width:85px;border-radius:50%;margin:auto;
+ display:grid;place-items:center;font-size:36px;background:linear-gradient(135deg,#51101d,#20171a);
+ border:2px solid #8f2435}
+.player h3{margin:10px 0 0}
+.player p{margin:2px 0 12px}
+.points{font-size:12px;color:var(--gold)}
+.quizbox{background:linear-gradient(135deg,#191319,#14161b);
+ border:1px solid #57202a;border-radius:18px;padding:20px}
+.progress{height:6px;background:#30313a;border-radius:8px;overflow:hidden;margin:12px 0}
+.progress div{height:100%;background:var(--red);width:0;transition:width .2s}
+.answers{display:grid;gap:9px;margin:18px 0}
+.answer{padding:12px;border:1px solid var(--line);background:#202229;color:white;
+ border-radius:10px;text-align:right}
+.answer:hover{border-color:var(--red)}
+.answer:disabled{opacity:.75;cursor:default}
+.answer.correct{border-color:#2aa56b;background:#123526}
+.answer.wrong{border-color:#e34b5b;background:#421820}
+.quizresult{padding:15px;border-radius:12px;background:var(--panel2);margin-top:12px}
+footer{border-top:1px solid var(--line);padding:30px 16px;text-align:center;color:var(--muted)}
+footer strong{color:white}
+.bottomnav{display:none}
+.modal{position:fixed;inset:0;background:#000b;z-index:50;display:none;
+ align-items:center;justify-content:center;padding:16px}
+.modal.show{display:flex}
+.modalbox{width:min(560px,100%);max-height:85vh;overflow:auto;background:var(--panel);
+ border:1px solid var(--line);border-radius:18px;padding:20px}
+.modalhead{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.modalhead h2{font-size:20px}
+.close{background:transparent;color:white;border:0;font-size:26px}
+.empty{padding:25px;text-align:center;color:var(--muted)}
+body.light{--bg:#f4f4f6;--panel:#fff;--panel2:#eeeef2;--text:#17171b;--muted:#666975;--line:#d9dae0}
+body.light header{background:#fffffff2}
+body.light .iconbtn,body.light .btn:not(.primary),body.light .answer{color:var(--text)}
+body.light .hero{color:white}
+@media(max-width:700px){
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .cover{height:100px}.cardbody{padding:11px}.card h3{font-size:14px}
+ .match{align-items:flex-start;flex-wrap:wrap}.matchinfo{text-align:right;width:100%}
+ .bottomnav{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:25;
+ background:#101116f5;border-top:1px solid var(--line);justify-content:space-around;
+ padding:8px 2px calc(8px + env(safe-area-inset-bottom))}
+ .bottomnav a{font-size:10px;text-align:center;color:#c4c4cb}
+ .bottomnav span{display:block;font-size:19px}
+ main{padding-bottom:95px}
+}
+@media(max-width:380px){.grid{grid-template-columns:1fr}.hero{padding:24px}.stats{gap:6px}}
 </style>
 </head>
 <body>
-<header class="topbar"><div class="wrap topinner"><div class="brand"><div class="crest">🦅</div><div class="brand-name">Ahlawy Zone<small>كل الحكاية أهلي</small></div></div><div class="top-actions"><button class="iconbtn" aria-label="بحث" onclick="focusSearch()">⌕</button><button class="iconbtn" aria-label="الرئيسية" onclick="go('home')">⌂</button></div></div></header>
-<main class="wrap">
-<section class="hero" id="hero"><div class="hero-card"><div class="hero-glow"></div><div class="hero-content"><span class="eyebrow"><i class="live-dot"></i> بيت كل أهلاوي</span><h1>الأهلي مش مجرد نادي…<br><span>دي حكاية انتماء.</span></h1><p>أخبار، مباريات، أساطير ونجوم القلعة الحمراء — كل اللي يهمك في مكان واحد، بتصميم معمول للموبايل.</p><div class="hero-buttons"><button class="btn-primary" onclick="go('news')">اكتشف آخر الأخبار ←</button><button class="btn-secondary" onclick="go('quiz')">اختبر أهلاويتك ⚽</button></div></div></div></section>
-<nav class="navrow" aria-label="أقسام الموقع"><button class="navitem active" data-page="home" onclick="go('home')">الرئيسية</button><button class="navitem" data-page="news" onclick="go('news')">📰 الأخبار</button><button class="navitem" data-page="matches" onclick="go('matches')">⚽ المباريات</button><button class="navitem" data-page="players" onclick="go('players')">👕 اللاعبون</button><button class="navitem" data-page="legends" onclick="go('legends')">🏆 الأساطير</button><button class="navitem" data-page="quiz" onclick="go('quiz')">🧠 اختبر نفسك</button><button class="navitem" data-page="fans" onclick="go('fans')">❤️ منطقة الجمهور</button></nav>
-<section class="page active" id="page-home"><div class="section"><div class="section-head"><div><h2>في قلب الحدث 🔴</h2><p>أقسامك المفضلة في مكان واحد</p></div><span class="tag">AHLAWY ZONE</span></div><div class="grid"><article class="card"><div class="cover"><span class="cover-label">أخبار</span><span class="ball">📰</span></div><div class="card-body"><h3>كل جديد عن القلعة الحمراء</h3><p>تابع أحدث الأخبار والتقارير في قسم الأخبار.</p><div class="meta"><span>آخر المستجدات</span><button class="text-link" onclick="go('news')">افتح ←</button></div></div></article><article class="card"><div class="cover" style="background:radial-gradient(circle,#7e1428,#15080c 70%)"><span class="cover-label">المباريات</span><span class="ball">⚽</span></div><div class="card-body"><h3>الماتش الجاي والنتائج</h3><p>مكان لمتابعة جدول ونتائج الفريق.</p><div class="meta"><span>جدول الفريق</span><button class="text-link" onclick="go('matches')">افتح ←</button></div></div></article><article class="card"><div class="cover" style="background:radial-gradient(circle,#705022,#17120c 70%)"><span class="cover-label">تاريخ</span><span class="ball">🏆</span></div><div class="card-body"><h3>أساطير صنعت التاريخ</h3><p>افتكر نجوم محفورين في ذاكرة الجماهير.</p><div class="meta"><span>تاريخ الأهلي</span><button class="text-link" onclick="go('legends')">افتح ←</button></div></div></article></div></div><div class="section"><div class="section-head"><div><h2>مختار ليك</h2><p>حاجات تستاهل تستكشفها</p></div></div><div class="stack"><div class="card feature-card"><div class="mini-cover">👕</div><div><h3>نجوم القلعة الحمراء</h3><p>تعرّف على مجموعة من لاعبي الأهلي في صفحة اللاعبين.</p><div class="meta"><span>قسم اللاعبين</span><button class="text-link" onclick="go('players')">شوف اللاعبين ←</button></div></div></div><div class="card feature-card"><div class="mini-cover">🧠</div><div><h3>أهلاوي أصلي ولا إيه؟</h3><p>جاوب على 5 أسئلة كروية وشوف نتيجتك.</p><div class="meta"><span>تحدي سريع</span><button class="text-link" onclick="go('quiz')">ابدأ الاختبار ←</button></div></div></div></div></div></section>
-<section class="page" id="page-news"><div class="section"><div class="section-head"><div><h2>📰 أخبار الأهلي</h2><p>نماذج تجريبية قابلة للتعديل — مش أخبار لحظية</p></div><span class="tag">NEWS</span></div><div class="searchbox"><input id="newsSearch" type="search" placeholder="دوّر في عناوين الأخبار..." oninput="filterNews()" aria-label="بحث في الأخبار"></div><div class="grid" id="newsGrid"><article class="card news-card" data-title="تاريخ الأهلي وبطولاته"><div class="cover"><span class="cover-label">تاريخ النادي</span><span class="ball">🏆</span></div><div class="card-body"><h3>الأهلي… تاريخ كبير وطموح مستمر</h3><p>مساحة تحريرية لكتابة تقرير عن محطات النادي وإنجازاته.</p><div class="meta"><span>محتوى تعريفي</span><span>قراءة قصيرة</span></div></div></article><article class="card news-card" data-title="جمهور الأهلي"><div class="cover" style="background:radial-gradient(circle,#b01831,#16080d 72%)"><span class="cover-label">الجماهير</span><span class="ball">❤️</span></div><div class="card-body"><h3>الجمهور الأحمر… الحكاية اللي مبتخلصش</h3><p>اكتب هنا تقريرًا عن دعم الجمهور وأجواء المدرجات.</p><div class="meta"><span>من المدرجات</span><span>مقال</span></div></div></article><article class="card news-card" data-title="أكاديمية الناشئين والمواهب"><div class="cover" style="background:radial-gradient(circle,#702034,#111217 72%)"><span class="cover-label">مواهب</span><span class="ball">🌟</span></div><div class="card-body"><h3>مواهب المستقبل في قطاع الناشئين</h3><p>مكان لعرض تقارير عن المواهب الصاعدة بعد التحقق من المعلومات.</p><div class="meta"><span>قطاع الناشئين</span><span>تقرير</span></div></div></article></div><div class="empty" id="newsEmpty">مفيش نتائج مطابقة للبحث.</div><p class="disclaimer">ملاحظة: الأخبار الموجودة حاليًا محتوى تجريبي للتصميم. الموقع لا يجلب الأخبار تلقائيًا من الإنترنت.</p></div></section>
-<section class="page" id="page-matches"><div class="section"><div class="section-head"><div><h2>⚽ المباريات والنتائج</h2><p>واجهة جاهزة لإضافة المواعيد والنتائج الصحيحة</p></div><span class="tag">FIXTURES</span></div><div class="stack"><article class="match-card"><div class="match-top"><span>مباراة تجريبية</span><span class="tag">موعد غير محدد</span></div><div class="match-teams"><div class="team"><div class="team-badge">🦅</div>الأهلي</div><div class="versus">VS</div><div class="team"><div class="team-badge" style="background:#ffffff0b;border-color:#ffffff20">⚽</div>الفريق المنافس</div></div><div class="match-note">أضف اسم المنافس والبطولة والتاريخ والملعب عند تأكيدها.</div></article><article class="match-card"><div class="match-top"><span>سجل النتائج</span><span>قابل للتحديث يدويًا</span></div><p style="color:#b8bbc5;font-size:13px;margin:10px 0 0">يمكنك تعديل بيانات المباريات داخل ملف الموقع. لم نضع مواعيد حقيقية حتى لا نعرض معلومات قديمة أو غير مؤكدة.</p></article></div></div></section>
-<section class="page" id="page-players"><div class="section"><div class="section-head"><div><h2>👕 نجوم القلعة الحمراء</h2><p>بطاقات تعريفية تجريبية</p></div><span class="tag">PLAYERS</span></div><div class="searchbox"><input id="playerSearch" type="search" placeholder="ابحث عن لاعب..." oninput="filterPlayers()" aria-label="البحث عن لاعب"></div><div class="grid" id="playersGrid"><article class="card player-card" data-title="محمد الشناوي حارس مرمى"><div class="cover"><span class="cover-label">حراسة المرمى</span><span class="ball">🧤</span></div><div class="card-body"><h3>محمد الشناوي</h3><p>حارس مرمى — بطاقة تعريفية قابلة للتحديث.</p><div class="meta"><span>مركز: حارس</span><span>الأهلي</span></div></div></article><article class="card player-card" data-title="محمود تريزيجيه جناح"><div class="cover"><span class="cover-label">خط الهجوم</span><span class="ball">⚡</span></div><div class="card-body"><h3>محمود حسن تريزيجيه</h3><p>جناح هجومي — أضف الإحصائيات بعد التحقق منها.</p><div class="meta"><span>مركز: جناح</span><span>الأهلي</span></div></div></article><article class="card player-card" data-title="إمام عاشور وسط"><div class="cover"><span class="cover-label">خط الوسط</span><span class="ball">🎯</span></div><div class="card-body"><h3>إمام عاشور</h3><p>لاعب وسط — بيانات اللاعب تحتاج تحديثًا دوريًا.</p><div class="meta"><span>مركز: وسط</span><span>الأهلي</span></div></div></article></div><div class="empty" id="playersEmpty">مفيش لاعب بالاسم ده.</div><p class="disclaimer">القائمة للتجربة وليست كشفًا رسميًا محدثًا. راجع آخر قائمة للفريق قبل نشر المعلومات.</p></div></section>
-<section class="page" id="page-legends"><div class="section"><div class="section-head"><div><h2>🏆 أساطير الأهلي</h2><p>أسماء محفورة في ذاكرة جمهور الأحمر</p></div><span class="tag">LEGENDS</span></div><div class="grid"><article class="card legend-card"><div class="cover"><span class="cover-label">أسطورة</span><span class="ball">👑</span></div><div class="card-body"><h3>محمود الخطيب</h3><p>«بيبو» — أحد أبرز رموز النادي الأهلي في تاريخه.</p><div class="meta"><span>رمز أهلاوي</span><span>🏆</span></div></div></article><article class="card legend-card"><div class="cover"><span class="cover-label">أسطورة</span><span class="ball">🦅</span></div><div class="card-body"><h3>محمد أبو تريكة</h3><p>اسم ارتبط بلحظات كروية لا تُنسى لدى الجماهير.</p><div class="meta"><span>نجم تاريخي</span><span>❤️</span></div></div></article><article class="card legend-card"><div class="cover"><span class="cover-label">أسطورة</span><span class="ball">⭐</span></div><div class="card-body"><h3>وائل جمعة</h3><p>مدافع بارز ترك بصمة قوية مع القلعة الحمراء.</p><div class="meta"><span>الصخرة</span><span>🛡️</span></div></div></article></div></div></section>
-<section class="page" id="page-fans"><div class="section"><div class="section-head"><div><h2>❤️ منطقة الجمهور</h2><p>صوتك وحماسك جزء من الحكاية</p></div><span class="tag">FAN ZONE</span></div><div class="fan-layout"><div class="fan-panel"><h3>📊 تصويت الأهلاوية</h3><p>اختار القسم اللي بتحب تتابعه أكتر. التصويت محفوظ على جهازك فقط، مش تصويت عام بين كل الزوار.</p><div class="poll-options" id="pollOptions"><button class="poll-option" onclick="votePoll('matches')">⚽ المباريات <span class="poll-count" id="poll-matches"></span></button><button class="poll-option" onclick="votePoll('history')">🏆 تاريخ وبطولات <span class="poll-count" id="poll-history"></span></button><button class="poll-option" onclick="votePoll('players')">👕 اللاعبين <span class="poll-count" id="poll-players"></span></button><button class="poll-option" onclick="votePoll('news')">📰 الأخبار <span class="poll-count" id="poll-news"></span></button></div><div class="utility-row"><button class="small-btn" onclick="resetPoll()">إعادة التصويت</button></div></div><div class="fan-panel"><h3>✍️ رسالة أهلاوي</h3><p>اكتب رسالة تشجيع أو ذكرى جميلة. الرسائل تظهر على نفس الجهاز والمتصفح فقط.</p><form class="fan-form" onsubmit="addFanPost(event)"><input id="fanName" maxlength="24" placeholder="اسم مستعار (اختياري)" aria-label="اسم مستعار"><textarea id="fanMessage" maxlength="240" placeholder="اكتب رسالتك للأهلي..." required aria-label="رسالة تشجيع"></textarea><button class="btn-primary" type="submit">أضف رسالتك ❤️</button></form><div class="saved-note">ممنوع كتابة بيانات شخصية أو معلومات حساسة.</div></div></div><div class="section-head" style="margin-top:22px"><div><h2>📣 رسائل الجمهور</h2><p>المحفوظ على جهازك</p></div><button class="small-btn danger" onclick="clearFanPosts()">مسح الرسائل</button></div><div id="fanPosts"><div class="fan-panel"><p>لسه مفيش رسائل. كن أول أهلاوي يكتب رسالة تشجيع!</p></div></div><div class="section"><div class="section-head"><div><h2>🦅 ميثاق الأهلاوي</h2><p>شجع بحماس واحترم الجميع</p></div></div><div class="card card-body"><p>الأهلي انتماء وتاريخ وروح رياضية. شجّع فريقك، احترم المنافس، وتأكد من الأخبار قبل نشرها. الموقع جماهيري مستقل وغير تابع رسميًا للنادي.</p><div class="stat-grid"><div class="stat-chip"><b>❤️</b><span>انتماء</span></div><div class="stat-chip"><b>🏆</b><span>تاريخ</span></div><div class="stat-chip"><b>🤝</b><span>روح رياضية</span></div></div></div></div></div></section>
-<section class="page" id="page-quiz"><div class="section"><div class="section-head"><div><h2>🧠 اختبار الأهلاوية</h2><p>5 أسئلة سريعة — جرّب معلوماتك</p></div><span class="tag">QUIZ</span></div><div class="quizbox" id="quizbox"><div class="match-top"><span id="quizCount">السؤال 1 من 5</span><span id="quizScore">النقاط: 0</span></div><div class="quiz-progress"><span id="quizBar"></span></div><h3 class="quiz-q" id="quizQuestion">...</h3><div class="answers" id="quizAnswers"></div><div class="quiz-bottom"><span id="quizFeedback">اختار إجابة واحدة.</span><button class="btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>التالي ←</button></div></div><div class="result" id="quizResult" style="display:none"><div class="big">🦅🔴</div><h3 id="resultTitle">أهلاوي!</h3><p id="resultText" style="color:#b8bbc5"></p><button class="btn-primary" onclick="restartQuiz()">العب تاني</button></div></div></section>
-<footer class="footer"><div class="brand" style="margin-bottom:10px"><div class="crest">🦅</div><div class="brand-name">Ahlawy Zone<small>كل الحكاية أهلي</small></div></div><p>موقع جماهيري تجريبي مستقل لعشاق الأهلي، غير تابع رسميًا للنادي. الأخبار والمواعيد المعروضة حاليًا أمثلة وليست تحديثات مباشرة. رسائل الجمهور والتصويت تُحفظ محليًا على جهاز الزائر ولا تُرسل إلى خادم.</p><p>صُنع ❤️ للأهلي — <strong>Ahlawy Zone</strong></p></footer>
+<div class="topline"></div>
+<header>
+ <div class="navwrap">
+  <div class="brandrow">
+   <a href="#home" class="brand"><span class="logo">🦅</span>
+    <span>Ahlawy Zone<small>THE HOME OF AL AHLY FANS</small></span></a>
+   <div class="actions">
+    <button class="iconbtn" id="themeBtn" aria-label="تغيير المظهر">☼</button>
+    <button class="iconbtn" id="favBtn">♥ <span id="favCount">0</span></button>
+   </div>
+  </div>
+  <nav id="mainnav">
+   <a href="#home" class="active">الرئيسية</a>
+   <a href="#news">الأخبار</a><a href="#matches">المباريات</a>
+   <a href="#players">اللاعبون</a><a href="#legends">الأساطير</a>
+   <a href="#stands">المدرجات</a><a href="#quiz">اختبر معلوماتك</a>
+   <a href="#fans">جمهور الأهلي</a><a href="#rewards">المكافآت</a>
+  </nav>
+ </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <span class="hero-badge">🔴 عالم النادي الأهلي المصري</span>
+ <div class="eyebrow">WELCOME TO AHLawy ZONE</div>
+ <h1>الأهلي مش مجرد نادي.<br><span style="color:#ff4358">الأهلي حكاية أجيال.</span></h1>
+ <p>مكانك لكل ما يخص القلعة الحمراء: الأخبار، المباريات، النجوم، البطولات، ذكريات المدرجات واختبارات جمهور الأهلي.</p>
+ <a class="btn primary" href="#news">اكتشف عالم الأهلي ←</a>
+ <a class="btn" href="#quiz">اختبر أهلاويتك</a>
+</section>
+
+<div class="stats">
+ <div class="stat"><strong>1907</strong><span>عام تأسيس النادي</span></div>
+ <div class="stat"><strong>الأهلي</strong><span>نادي القرن الأفريقي</span></div>
+ <div class="stat"><strong>❤️</strong><span>كيان وجمهور وتاريخ</span></div>
+</div>
+
+<section class="section" id="news">
+ <div class="sectionhead"><div><h2>أخبار الأهلي</h2><div class="sub">تابع الأخبار من مصادرها الأصلية</div></div>
+ <a class="btn" href="https://www.alahlyegypt.com/ar/news?category=football" target="_blank" rel="noopener">المصدر الرسمي ↗</a></div>
+ <div class="searchrow"><input id="search" placeholder="ابحث عن لاعب أو خبر أو قسم..." aria-label="البحث">
+ <button class="btn primary" id="searchBtn">بحث</button></div>
+ <div class="grid" id="newsGrid">
+  <article class="card"><div class="cover">📰</div><div class="cardbody">
+   <span class="tag">المصدر الرسمي</span><h3>آخر أخبار الفريق الأول</h3>
+   <p>افتح أخبار النادي المنشورة رسميًا وتابع المستجدات من المصدر.</p>
+   <a class="btn primary" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/ar/news?category=football">اقرأ الأخبار ↗</a>
+  </div></article>
+  <article class="card"><div class="cover">⚽</div><div class="cardbody">
+   <span class="tag">المباريات</span><h3>أخبار واستعدادات الفريق</h3>
+   <p>تابع إعلانات المباريات والتقارير الرسمية قبل اللقاءات وبعدها.</p>
+   <a class="btn" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/en">تابع الموقع الرسمي ↗</a>
+  </div></article>
+  <article class="card"><div class="cover">🏆</div><div class="cardbody">
+   <span class="tag">تاريخ الأهلي</span><h3>بطولات وذكريات لا تُنسى</h3>
+   <p>استكشف تاريخ النادي وإنجازاته من خلال مصادر موثوقة.</p>
+   <a class="btn" href="#legends">اكتشف التاريخ ↓</a>
+  </div></article>
+ </div>
+ <p class="sub">تنبيه: هذه روابط للمصادر وليست بثًا آليًا للأخبار. تحقق من المصدر لمعرفة آخر المستجدات.</p>
+</section>
+
+<section class="section" id="matches">
+ <div class="sectionhead"><div><h2>المباريات</h2><div class="sub">روابط متابعة رسمية بدل مواعيد غير مؤكدة</div></div></div>
+ <div class="list">
+  <div class="listitem match"><div class="teams"><span class="team"><span class="emblem">🦅</span>الأهلي</span>
+   <span class="vs">VS</span><span class="team"><span class="emblem">⚽</span>المنافس</span></div>
+   <div class="matchinfo"><span class="pill red">جدول المباريات</span><p>راجع الموعد والمنافس والملعب من المصدر الرسمي.</p>
+   <a class="btn primary" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/en">المباريات الرسمية ↗</a></div></div>
+  <div class="listitem"><h3>📋 قبل المباراة</h3><p>لن يُعرض تشكيل أو موعد باعتباره رسميًا دون إعلان موثوق. التشكيل المتوقع يختلف عن التشكيل المعلن.</p></div>
+  <div class="listitem"><h3>📊 النتائج والترتيب</h3><p>تابع النتائج والترتيب من مصادر البطولة أو النادي لتجنب المعلومات القديمة.</p></div>
+ </div>
+</section>
+
+<section class="section" id="players">
+ <div class="sectionhead"><div><h2>نجوم القلعة الحمراء</h2><div class="sub">أسماء معروفة — تحقق من القائمة الحالية من الموقع الرسمي</div></div></div>
+ <div class="grid" id="playersGrid">
+  <article class="card player" data-search="محمد الشناوي حارس مرمى"><div class="avatar">🧤</div><h3>محمد الشناوي</h3><p class="sub">حارس مرمى</p><button class="btn" data-player="محمد الشناوي">التفاصيل</button></article>
+  <article class="card player" data-search="محمد هاني مدافع"><div class="avatar">🛡️</div><h3>محمد هاني</h3><p class="sub">مدافع</p><button class="btn" data-player="محمد هاني">التفاصيل</button></article>
+  <article class="card player" data-search="مروان عطية وسط"><div class="avatar">⚽</div><h3>مروان عطية</h3><p class="sub">وسط ملعب</p><button class="btn" data-player="مروان عطية">التفاصيل</button></article>
+  <article class="card player" data-search="إمام عاشور وسط"><div class="avatar">🔴</div><h3>إمام عاشور</h3><p class="sub">وسط ملعب</p><button class="btn" data-player="إمام عاشور">التفاصيل</button></article>
+  <article class="card player" data-search="حسين الشحات جناح"><div class="avatar">⚡</div><h3>حسين الشحات</h3><p class="sub">جناح هجومي</p><button class="btn" data-player="حسين الشحات">التفاصيل</button></article>
+  <article class="card player" data-search="أشرف بن شرقي مهاجم"><div class="avatar">🎯</div><h3>أشرف بن شرقي</h3><p class="sub">لاعب هجومي</p><button class="btn" data-player="أشرف بن شرقي">التفاصيل</button></article>
+ </div>
+ <p class="sub">الأسماء أمثلة للاعبين معروفين بارتباطهم بالفريق؛ لا تمثل هذه القائمة تأكيدًا لتسجيلهم الحالي أو مشاركتهم المقبلة.</p>
+ <a class="btn" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/en/football/first-team">تحقق من قائمة الفريق الرسمية ↗</a>
+</section>
+
+<section class="section" id="legends">
+ <div class="sectionhead"><div><h2>أساطير الأهلي</h2><div class="sub">أسماء صنعت لحظات في تاريخ النادي</div></div></div>
+ <div class="grid">
+  <article class="card"><div class="cover">👑</div><div class="cardbody"><h3>محمود الخطيب</h3><p>أحد أبرز رموز النادي الأهلي ورئيسه.</p></div></article>
+  <article class="card"><div class="cover">🧤</div><div class="cardbody"><h3>عصام الحضري</h3><p>حارس مرمى بارز في تاريخ الكرة المصرية والأهلي.</p></div></article>
+  <article class="card"><div class="cover">⚽</div><div class="cardbody"><h3>محمد أبو تريكة</h3><p>من أشهر نجوم الأهلي وصاحب لحظات كروية بارزة.</p></div></article>
+  <article class="card"><div class="cover">🏅</div><div class="cardbody"><h3>وائل جمعة</h3><p>مدافع ارتبط اسمه بإنجازات كبيرة مع الفريق.</p></div></article>
+  <article class="card"><div class="cover">🔥</div><div class="cardbody"><h3>محمد بركات</h3><p>نجم سابق تميز بالمهارة والحسم.</p></div></article>
+  <article class="card"><div class="cover">❤️</div><div class="cardbody"><h3>صناعة التاريخ</h3><p>لكل جيل نجومه وذكرياته وإنجازاته.</p></div></article>
+ </div>
+</section>
+
+<section class="section" id="stands">
+ <div class="sectionhead"><div><h2>المدرجات والتيفوهات</h2><div class="sub">ذاكرة الجمهور وأجواء التشجيع</div></div></div>
+ <div class="grid">
+  <article class="card"><div class="cover">🚩</div><div class="cardbody"><h3>تيفوهات الأهلي</h3><p>معرض مخصص للتصميمات الجماهيرية التاريخية.</p>
+   <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/search?tbm=isch&q=Al+Ahly+SC+tifo">استكشف الصور ↗</a></div></article>
+  <article class="card"><div class="cover">🥁</div><div class="cardbody"><h3>ألتراس أهلاوي</h3><p>مساحة لتوثيق تاريخ التشجيع واللافتات والذكريات.</p>
+   <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/search?q=Ultras+Ahlawy+history">اقرأ عن التاريخ ↗</a></div></article>
+  <article class="card"><div class="cover">🏟️</div><div class="cardbody"><h3>أجواء الاستاد</h3><p>صور وأرشيفات متاحة للجمهور من مصادرها الأصلية.</p>
+   <a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=Al+Ahly+fans+tifo">شاهد الفيديوهات ↗</a></div></article>
+ </div>
+ <p class="sub">روابط البحث تعرض مواد من جهات مختلفة؛ راعِ حقوق الصور والفيديوهات ولا تنسبها للموقع دون إذن.</p>
+</section>
+
+<section class="section" id="quiz">
+ <div class="sectionhead"><div><h2>اختبر أهلاويتك</h2><div class="sub">15 سؤالًا — الدرجة الكاملة فقط تمنح 5 جنيه رصيدًا تجريبيًا</div></div></div>
+ <div class="quizbox" id="quizbox">
+  <div id="quizStart"><span class="pill red">تحدي الجمهور</span>
+   <h3>هل أنت موسوعة أهلاوية؟</h3>
+   <p class="sub">أجب عن 15 سؤالًا. يلزم 15/15 لاستحقاق الرصيد التجريبي. كل محاولة تُسجل محليًا على هذا الجهاز فقط.</p>
+   <button class="btn primary" id="startQuiz">ابدأ الامتحان ←</button>
+  </div>
+  <div id="quizPlay" hidden>
+   <div class="sectionhead"><span id="qCounter">السؤال 1 من 15</span><span id="score">النتيجة: 0</span></div>
+   <div class="progress"><div id="progressBar"></div></div>
+   <h3 id="question"></h3><div class="answers" id="answers"></div>
+   <p id="feedback" class="sub" aria-live="polite"></p>
+   <button class="btn primary" id="nextQuestion" hidden>السؤال التالي ←</button>
+  </div>
+  <div id="quizEnd" hidden></div>
+ </div>
+</section>
+
+<section class="section" id="rewards">
+ <div class="sectionhead"><div><h2>رصيدك ومكافآتك</h2><div class="sub">رصيد تجريبي محفوظ على الجهاز الحالي</div></div></div>
+ <div class="grid">
+  <div class="card"><div class="cardbody"><span class="tag">رصيد تجريبي</span>
+   <h3><span id="balance">0</span> جنيه</h3><p>هذا الرقم ليس رصيدًا ماليًا حقيقيًا ولا يمكن سحبه.</p></div></div>
+  <div class="card"><div class="cardbody"><span class="tag">الاشتراك التجريبي</span>
+   <h3>15 جنيه / شهر</h3><p>عرض توضيحي فقط. لا توجد عملية دفع أو عضوية مدفوعة مفعّلة.</p>
+   <button class="btn" id="subscribeBtn">عرض تفاصيل الاشتراك</button></div></div>
+  <div class="card"><div class="cardbody"><span class="tag">الكوبون</span>
+   <h3>كود المكافأة</h3><p>أدخل كودًا تجريبيًا للحصول على 20 جنيهًا مرة واحدة على هذا الجهاز.</p>
+   <input class="field" id="coupon" placeholder="أدخل الكود">
+   <button class="btn primary" id="couponBtn" style="margin-top:9px">تفعيل الكود</button>
+   <p id="couponMsg" aria-live="polite"></p></div></div>
+ </div>
+ <div class="notice" style="margin-top:14px">المكافآت هنا محاكاة داخل المتصفح. لا يوجد سحب نقدي أو دفع أو اشتراك فعلي. التخزين المحلي يمكن تغييره أو حذفه، لذلك لا يصلح لإثبات رصيد حقيقي.</div>
+</section>
+
+<section class="section" id="fans">
+ <div class="sectionhead"><div><h2>صوت جمهور الأهلي</h2><div class="sub">تصويت محلي على هذا الجهاز</div></div></div>
+ <div class="card"><div class="cardbody">
+  <h3>إيه أكتر حاجة بتحبها في الأهلي؟</h3>
+  <div class="answers" id="pollOptions">
+   <button class="answer" data-poll="history">تاريخ وبطولات الأهلي</button>
+   <button class="answer" data-poll="fans">الجمهور والمدرجات</button>
+   <button class="answer" data-poll="players">اللاعبون والنجوم</button>
+   <button class="answer" data-poll="spirit">روح الفانلة الحمرا</button>
+  </div><p id="pollMsg" class="sub"></p>
+ </div></div>
+ <div class="sectionhead" style="margin-top:20px"><div><h2>مفضلتك</h2><div class="sub">احفظ البطاقات التي تريد الرجوع إليها</div></div></div>
+ <div id="favorites" class="list"><div class="empty">لم تضف أي عناصر للمفضلة بعد.</div></div>
+</section>
+
+<section class="section" id="sources">
+ <div class="sectionhead"><div><h2>مصادر الأهلي</h2><div class="sub">روابط خارجية للتحقق من الأخبار والمعلومات</div></div></div>
+ <div class="list">
+  <a class="listitem" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/ar/news?category=football"><h3>🌐 الموقع الرسمي — الأخبار</h3><p>أخبار النادي المنشورة رسميًا.</p></a>
+  <a class="listitem" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/en/football/first-team"><h3>👕 الفريق الأول</h3><p>صفحة الفريق الأول الرسمية باللغة الإنجليزية.</p></a>
+  <a class="listitem" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/en"><h3>🏆 موقع النادي الرسمي</h3><p>بوابة النادي وأقسامه الرسمية.</p></a>
+ </div>
+</section>
 </main>
-<nav class="bottom-nav" aria-label="تنقل سريع"><button class="active" data-page="home" onclick="go('home')"><span>⌂</span><span>الرئيسية</span></button><button data-page="news" onclick="go('news')"><span>▤</span><span>الأخبار</span></button><button data-page="matches" onclick="go('matches')"><span>⚽</span><span>المباريات</span></button><button data-page="players" onclick="go('players')"><span>👕</span><span>اللاعبون</span></button><button data-page="quiz" onclick="go('quiz')"><span>🧠</span><span>اختبار</span></button></nav><div class="toast" id="toast" role="status"></div>
+
+<div class="bottomnav">
+ <a href="#home"><span>⌂</span>الرئيسية</a>
+ <a href="#news"><span>▤</span>الأخبار</a>
+ <a href="#matches"><span>⚽</span>المباريات</a>
+ <a href="#quiz"><span>❓</span>الاختبارات</a>
+ <a href="#rewards"><span>★</span>المكافآت</a>
+</div>
+<footer><strong>Ahlawy Zone 🦅</strong><p>كل الحكاية في الكيان ❤️</p>
+ <p>موقع جماهيري غير رسمي، غير تابع للنادي الأهلي. تُنسب الأخبار والصور لأصحابها ومصادرها.</p>
+ <p>© <span id="year"></span> Ahlawy Zone</p></footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modalbox"><div class="modalhead"><h2 id="modalTitle">التفاصيل</h2><button class="close" id="closeModal" aria-label="إغلاق">×</button></div><div id="modalBody"></div></div>
+</div>
+
 <script>
-const pages=['home','news','matches','players','legends','quiz','fans'];
-function go(id){if(!pages.includes(id))return;document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active',p.id==='page-'+id));document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===id));document.getElementById('hero').style.display=id==='home'?'block':'none';window.scrollTo({top:0,behavior:'smooth'});}
-function shareSite(){const data={title:'Ahlawy Zone',text:'كل الحكاية أهلي ❤️🔴',url:location.href};if(navigator.share){navigator.share(data).catch(()=>{});}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(location.href).then(()=>toast('تم نسخ رابط الموقع')).catch(()=>toast('انسخ رابط الموقع من شريط العنوان'));}else{toast('انسخ رابط الموقع من شريط العنوان');}}
-function focusSearch(){if(!document.getElementById('page-news').classList.contains('active'))go('news');setTimeout(()=>document.getElementById('newsSearch').focus(),100)}
-function filterCards(inputId,selector,emptyId){const q=document.getElementById(inputId).value.trim().toLowerCase();let count=0;document.querySelectorAll(selector).forEach(c=>{const ok=c.dataset.title.toLowerCase().includes(q);c.style.display=ok?'':'none';if(ok)count++});document.getElementById(emptyId).style.display=count?'none':'block'}
-function filterNews(){filterCards('newsSearch','.news-card','newsEmpty')}function filterPlayers(){filterCards('playerSearch','.player-card','playersEmpty')}
+"use strict";
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const safeRead = (key, fallback) => {
+ try { const x=localStorage.getItem(key); return x===null?fallback:JSON.parse(x); }
+ catch(e){ return fallback; }
+};
+const safeWrite = (key, value) => {
+ try { localStorage.setItem(key, JSON.stringify(value)); return true; }
+ catch(e){ return false; }
+};
+let balance = Number(safeRead("az_balance",0)) || 0;
+let favorites = safeRead("az_favorites",[]);
+let usedCoupons = safeRead("az_coupons",[]);
+let claimedQuizzes = safeRead("az_claimed_quizzes",[]);
+let pollVote = safeRead("az_poll",null);
+let pollCounts = safeRead("az_poll_counts",{history:0,fans:0,players:0,spirit:0});
+const money = n => Number(n).toLocaleString("ar-EG");
+function renderBalance(){ $("#balance").textContent=money(balance); }
+function renderFavCount(){ $("#favCount").textContent=favorites.length; }
+function openModal(title, html){
+ $("#modalTitle").textContent=title;
+ $("#modalBody").innerHTML=html;
+ $("#modal").classList.add("show");
+ $("#closeModal").focus();
+}
+function closeModal(){ $("#modal").classList.remove("show"); }
+$("#closeModal").addEventListener("click",closeModal);
+$("#modal").addEventListener("click",e=>{if(e.target===$("#modal"))closeModal()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+$("#year").textContent=new Date().getFullYear();
+
+$("#themeBtn").addEventListener("click",()=>{
+ document.body.classList.toggle("light");
+ safeWrite("az_light",document.body.classList.contains("light"));
+});
+if(safeRead("az_light",false))document.body.classList.add("light");
+
+const playerInfo={
+ "محمد الشناوي":"حارس مرمى مصري وقائد سابق للفريق. راجع صفحة الفريق الرسمية للتحقق من وضعه الحالي.",
+ "محمد هاني":"لاعب مصري يشغل مركز الظهير الأيمن. تفاصيل القائمة الحالية عبر الموقع الرسمي.",
+ "مروان عطية":"لاعب وسط مصري. راجع المصادر الرسمية لأحدث المعلومات والمشاركات.",
+ "إمام عاشور":"لاعب وسط مصري. لا تمثل هذه البطاقة تأكيدًا للمشاركة في مباراة بعينها.",
+ "حسين الشحات":"لاعب هجومي مصري شارك مع الأهلي في فترات سابقة. تحقق من القائمة الحالية.",
+ "أشرف بن شرقي":"لاعب مغربي هجومي ارتبط اسمه بالأهلي. تحقق من صفحة الفريق لمعرفة وضعه الحالي."
+};
+$$("[data-player]").forEach(btn=>btn.addEventListener("click",()=>{
+ const name=btn.dataset.player;
+ openModal(name,`<p>${playerInfo[name]}</p><a class="btn primary" target="_blank" rel="noopener" href="https://www.alahlyegypt.com/en/football/first-team">راجع الفريق الرسمي ↗</a>
+ <button class="btn favToggle" data-fav="${name}" style="margin-top:10px">♡ أضف للمفضلة</button>`);
+}));
+
+function toggleFavorite(name){
+ if(favorites.includes(name))favorites=favorites.filter(x=>x!==name);
+ else favorites.push(name);
+ safeWrite("az_favorites",favorites);
+ renderFavCount();renderFavorites();
+}
+function renderFavorites(){
+ const root=$("#favorites");
+ if(!favorites.length){root.innerHTML='<div class="empty">لم تضف أي عناصر للمفضلة بعد.</div>';return;}
+ root.innerHTML="";
+ favorites.forEach(name=>{
+  const row=document.createElement("div");row.className="listitem";
+  const h=document.createElement("h3");h.textContent="♥ "+name;
+  const b=document.createElement("button");b.className="btn";b.textContent="إزالة من المفضلة";
+  b.addEventListener("click",()=>toggleFavorite(name));
+  row.append(h,b);root.append(row);
+ });
+}
+document.addEventListener("click",e=>{
+ const b=e.target.closest("[data-fav]");
+ if(b)toggleFavorite(b.dataset.fav);
+});
+$("#favBtn").addEventListener("click",()=>$("#favorites").scrollIntoView({behavior:"smooth"}));
+renderFavCount();renderFavorites();
+
+const searchable = [
+ ...$$("[data-search]"),
+ ...$$("#newsGrid .card"),
+ ...$$("#legends .card"),
+ ...$$("#stands .card")
+];
+function doSearch(){
+ const q=$("#search").value.trim().toLocaleLowerCase("ar");
+ let found=0;
+ searchable.forEach(card=>{
+  const text=(card.innerText+" "+(card.dataset.search||"")).toLocaleLowerCase("ar");
+  const yes=!q||text.includes(q);
+  card.hidden=!yes;if(yes)found++;
+ });
+ if(q&&found===0){
+  openModal("لا توجد نتائج",`<p>لم نجد نتائج مطابقة لـ «${q.replace(/[<>&"]/g,"")}» في الأقسام المعروضة.</p>`);
+ }
+}
+$("#searchBtn").addEventListener("click",doSearch);
+$("#search").addEventListener("keydown",e=>{if(e.key==="Enter")doSearch()});
+$("#search").addEventListener("input",()=>{
+ if(!$("#search").value.trim())searchable.forEach(c=>c.hidden=false);
+});
+
+$("#subscribeBtn").addEventListener("click",()=>openModal("الاشتراك التجريبي",
+ '<p>السعر المعروض: 15 جنيهًا شهريًا.</p><p>هذه واجهة تجريبية فقط؛ لا يوجد تحصيل أموال أو تفعيل عضوية فعلية.</p><p>لإنشاء اشتراك حقيقي يلزم نظام دفع وتحقق آمن، وليس مجرد زر في الصفحة.</p>'));
+
+$("#couponBtn").addEventListener("click",()=>{
+ const code=$("#coupon").value.trim().toUpperCase();
+ const msg=$("#couponMsg");
+ if(!code){msg.textContent="اكتب كودًا أولًا.";return;}
+ if(usedCoupons.includes(code)){msg.textContent="تم استخدام هذا الكود على هذا الجهاز من قبل.";return;}
+ // كود توضيحي عام؛ ليس كوبونًا ماليًا حقيقيًا.
+ if(code!=="AHLAWY20"){msg.textContent="الكود غير صحيح. الكود التجريبي للتوضيح هو AHLawy20.";return;}
+ usedCoupons.push(code);balance+=20;
+ safeWrite("az_coupons",usedCoupons);safeWrite("az_balance",balance);
+ renderBalance();msg.textContent="تمت إضافة 20 جنيهًا إلى الرصيد التجريبي.";
+});
+renderBalance();
+
 const questions=[
-{q:'في أي سنة تأسس النادي الأهلي؟',a:['1907','1909','1911','1920'],c:0},
-{q:'ما لون القميص الأساسي المعروف للأهلي؟',a:['الأزرق','الأحمر','الأخضر','الأبيض فقط'],c:1},
-{q:'ما لقب محمود الخطيب الشهير؟',a:['الماجيكو','بيبو','الصخرة','العميد'],c:1},
-{q:'أي لاعب اشتهر بلقب «الصخرة»؟',a:['وائل جمعة','محمد أبو تريكة','حسام حسن','محمد بركات'],c:0},
-{q:'ما اسم ملعب الأهلي المعروف في القاهرة؟',a:['استاد الإسكندرية','استاد القاهرة فقط','استاد السلام / ملعب الأهلي حسب الاستضافة','استاد طنجة'],c:2}
-];let qi=0,score=0,locked=false;
-function renderQuestion(){locked=false;const q=questions[qi];document.getElementById('quizCount').textContent=`السؤال ${qi+1} من ${questions.length}`;document.getElementById('quizScore').textContent='النقاط: '+score;document.getElementById('quizBar').style.width=(qi/questions.length*100)+'%';document.getElementById('quizQuestion').textContent=q.q;document.getElementById('quizFeedback').textContent='اختار إجابة واحدة.';document.getElementById('nextBtn').disabled=true;document.getElementById('nextBtn').textContent=qi===questions.length-1?'النتيجة ←':'التالي ←';const wrap=document.getElementById('quizAnswers');wrap.innerHTML='';q.a.forEach((answer,i)=>{const b=document.createElement('button');b.className='answer';b.textContent=answer;b.onclick=()=>chooseAnswer(i,b);wrap.appendChild(b)});}
-function chooseAnswer(i,btn){if(locked)return;locked=true;const q=questions[qi];document.querySelectorAll('.answer').forEach((b,j)=>{b.disabled=true;if(j===q.c)b.classList.add('correct')});if(i===q.c){score++;document.getElementById('quizFeedback').textContent='إجابة صحيحة! عاش يا أهلاوي 🔴'}else{btn.classList.add('wrong');document.getElementById('quizFeedback').textContent='مش دي الإجابة الصحيحة، كمّل!'}document.getElementById('quizScore').textContent='النقاط: '+score;document.getElementById('quizBar').style.width=((qi+1)/questions.length*100)+'%';document.getElementById('nextBtn').disabled=false;}
-function nextQuestion(){if(!locked)return;if(qi<questions.length-1){qi++;renderQuestion()}else{document.getElementById('quizbox').style.display='none';document.getElementById('quizResult').style.display='block';document.getElementById('resultTitle').textContent=score===5?'أهلاوي موسوعة!':score>=3?'أهلاوي أصيل!':'لسه قدامك ماتشات كتير تتعلم منها!';document.getElementById('resultText').textContent=`جبت ${score} من ${questions.length}. جرّب تاني وحسّن نتيجتك!`;}}
-function restartQuiz(){qi=0;score=0;document.getElementById('quizbox').style.display='block';document.getElementById('quizResult').style.display='none';renderQuestion()}
+ {q:"في أي عام تأسس النادي الأهلي؟",a:["1907","1911","1922","1952"],c:0},
+ {q:"ما اسم ملعب الأهلي المعروف في الجزيرة؟",a:["استاد القاهرة","ملعب مختار التتش","برج العرب","استاد الإسكندرية"],c:1},
+ {q:"ما لون القميص الأساسي الشهير للأهلي؟",a:["الأزرق","الأخضر","الأحمر","الأصفر"],c:2},
+ {q:"من هو رئيس الأهلي الحالي تاريخيًا وفق الاسم المعروف؟",a:["محمود الخطيب","حسن حمدي","صالح سليم","طاهر أبو زيد"],c:0},
+ {q:"ما اللقب الأفريقي الشهير الذي يحمله الأهلي؟",a:["النسور الخضر","نادي القرن الأفريقي","الملكي","الزعيم الآسيوي"],c:1},
+ {q:"أي رياضة هي محور هذا الموقع؟",a:["كرة السلة فقط","التنس","كرة القدم","السباحة"],c:2},
+ {q:"أي من هؤلاء حارس مرمى مصري معروف لعب للأهلي؟",a:["محمد الشناوي","محمد صلاح","عمر مرموش","أحمد حجازي"],c:0},
+ {q:"ما اسم المنافس التقليدي للأهلي في ديربي القاهرة؟",a:["الزمالك","الإسماعيلي فقط","بيراميدز","الاتحاد السكندري"],c:0},
+ {q:"ماذا تعني نتيجة 15/15 في نظام الاختبار؟",a:["نصف الإجابات صحيحة","كل الإجابات صحيحة","كل الإجابات خاطئة","لم يبدأ الاختبار"],c:1},
+ {q:"أي مصدر أفضل للتحقق من إعلان رسمي للنادي؟",a:["رسالة مجهولة","الموقع الرسمي للنادي","تعليق غير موثق","إشاعة"],c:1},
+ {q:"ما معنى التشكيل المتوقع؟",a:["تشكيل مؤكد رسميًا","توقع قبل الإعلان الرسمي","نتيجة المباراة","قائمة الحكام النهائية"],c:1},
+ {q:"ما الذي يجب فعله عند نشر صورة ليست ملكك؟",a:["إخفاء المصدر","نسبها لنفسك","احترام حقوقها وذكر المصدر","حذف اسم صاحبها"],c:2},
+ {q:"أين تقع جزيرة مقر النادي الأهلي الرئيسي التاريخي؟",a:["القاهرة","طنطا","أسوان","السلوم"],c:0},
+ {q:"ما فائدة التحقق من تاريخ الخبر؟",a:["تجنب نشر معلومات قديمة","زيادة حجم الصورة","تغيير لون الموقع","لا فائدة"],c:0},
+ {q:"متى يمنح هذا الاختبار الرصيد التجريبي؟",a:["عند أي نتيجة","عند 10/15","عند 14/15","عند 15/15"],c:3}
+];
+let quizOrder=[],qi=0,score=0,answered=false;
+function startQuiz(){
+ quizOrder=[...questions.keys()];
+ for(let i=quizOrder.length-1;i>0;i--){
+  const j=Math.floor(Math.random()*(i+1));[quizOrder[i],quizOrder[j]]=[quizOrder[j],quizOrder[i]];
+ }
+ qi=0;score=0;answered=false;
+ $("#quizStart").hidden=true;$("#quizEnd").hidden=true;$("#quizPlay").hidden=false;
+ showQuestion();
+}
+function showQuestion(){
+ const item=questions[quizOrder[qi]];
+ answered=false;
+ $("#qCounter").textContent=`السؤال ${qi+1} من ${questions.length}`;
+ $("#score").textContent=`النتيجة: ${score}`;
+ $("#progressBar").style.width=(qi/questions.length*100)+"%";
+ $("#question").textContent=item.q;
+ $("#feedback").textContent="";
+ $("#nextQuestion").hidden=true;$("#answers").innerHTML="";
+ item.a.forEach((answer,index)=>{
+  const b=document.createElement("button");b.className="answer";b.textContent=answer;
+  b.addEventListener("click",()=>chooseAnswer(index,b));$("#answers").append(b);
+ });
+}
+function chooseAnswer(index,button){
+ if(answered)return;answered=true;
+ const item=questions[quizOrder[qi]];
+ $$("#answers button").forEach((b,i)=>{
+  b.disabled=true;if(i===item.c)b.classList.add("correct");
+ });
+ if(index===item.c){score++;$("#feedback").textContent="إجابة صحيحة!";}
+ else{button.classList.add("wrong");$("#feedback").textContent="إجابة غير صحيحة. الإجابة الصحيحة موضحة بالأخضر.";}
+ $("#score").textContent=`النتيجة: ${score}`;
+ $("#progressBar").style.width=((qi+1)/questions.length*100)+"%";
+ $("#nextQuestion").hidden=false;
+ $("#nextQuestion").textContent=qi===questions.length-1?"عرض النتيجة":"السؤال التالي ←";
+}
+function finishQuiz(){
+ $("#quizPlay").hidden=true;$("#quizEnd").hidden=false;
+ const key="ahq15-v1";
+ const perfect=score===questions.length;
+ const already=claimedQuizzes.includes(key);
+ let message="";
+ if(perfect&&!already){
+  balance+=5;claimedQuizzes.push(key);
+  safeWrite("az_balance",balance);safeWrite("az_claimed_quizzes",claimedQuizzes);
+  renderBalance();message="<p class='points'>استحققت 5 جنيهات رصيدًا تجريبيًا!</p>";
+ }else if(perfect&&already){
+  message="<p>لقد استلمت مكافأة هذا الاختبار على هذا الجهاز من قبل.</p>";
+ }else{
+  message="<p>لا توجد مكافأة لهذه المحاولة. يلزم 15 إجابة صحيحة من 15.</p>";
+ }
+ $("#quizEnd").innerHTML=`<h3>انتهى الامتحان</h3><p>نتيجتك: <strong>${score} / ${questions.length}</strong></p>${message}<p class="sub">هذا رصيد تجريبي محلي، وليس أموالًا حقيقية.</p><button class="btn primary" id="restartQuiz">إعادة المحاولة</button>`;
+ $("#restartQuiz").addEventListener("click",startQuiz);
+}
+$("#startQuiz").addEventListener("click",startQuiz);
+$("#nextQuestion").addEventListener("click",()=>{
+ if(!answered)return;
+ if(qi<questions.length-1){qi++;showQuestion();}else finishQuiz();
+});
 
-const pollKey='ahlawyZonePollV1',postsKey='ahlawyZoneFanPostsV1';
-function readJSON(key,fallback){try{const v=JSON.parse(localStorage.getItem(key));return v??fallback}catch(e){return fallback}}
-function votePoll(choice){const choices=['matches','history','players','news'];if(!choices.includes(choice))return;localStorage.setItem(pollKey,choice);renderPoll();toast('اتحفظ اختيارك على جهازك ❤️')}
-function renderPoll(){const choice=localStorage.getItem(pollKey);document.querySelectorAll('.poll-option').forEach(b=>{const key=b.getAttribute('onclick').match(/'([^']+)'/)[1];b.classList.toggle('selected',key===choice);const count=document.getElementById('poll-'+key);if(count)count.textContent=key===choice?'اختيارك ✓':''})}
-function resetPoll(){localStorage.removeItem(pollKey);renderPoll();toast('تقدر تختار من جديد')}
-function addFanPost(e){e.preventDefault();const name=document.getElementById('fanName').value.trim().slice(0,24)||'أهلاوي مجهول';const message=document.getElementById('fanMessage').value.trim().slice(0,240);if(!message)return;const posts=readJSON(postsKey,[]);posts.unshift({name,message,created:new Date().toLocaleDateString('ar-EG')});localStorage.setItem(postsKey,JSON.stringify(posts.slice(0,30)));document.getElementById('fanMessage').value='';renderFanPosts();toast('رسالتك اتحفظت على جهازك')}
-function renderFanPosts(){const posts=readJSON(postsKey,[]);const root=document.getElementById('fanPosts');if(!posts.length){root.innerHTML='<div class="fan-panel"><p>لسه مفيش رسائل. كن أول أهلاوي يكتب رسالة تشجيع!</p></div>';return}root.innerHTML=posts.map(p=>'<article class="fan-post"><strong>'+escapeHTML(p.name)+'</strong><span style="float:left;color:#8f95a3;font-size:11px">'+escapeHTML(p.created||'')+'</span><p>'+escapeHTML(p.message)+'</p></article>').join('')}
-function escapeHTML(value){return String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]))}
-function clearFanPosts(){if(!confirm('متأكد إنك عايز تمسح كل رسائل الجمهور المحفوظة على الجهاز؟'))return;localStorage.removeItem(postsKey);renderFanPosts();toast('اتمسحت الرسائل المحفوظة')}
+function renderPoll(){
+ $$("#pollOptions button").forEach(b=>{
+  b.disabled=!!pollVote;
+  if(pollVote===b.dataset.poll)b.classList.add("correct");
+ });
+ if(pollVote){
+  const total=Object.values(pollCounts).reduce((a,b)=>a+b,0);
+  const count=pollCounts[pollVote]||0;
+  $("#pollMsg").textContent=`تم تسجيل تصويتك على هذا الجهاز. إجمالي التصويتات المحلية: ${total}.`;
+ }
+}
+$$("#pollOptions button").forEach(b=>b.addEventListener("click",()=>{
+ if(pollVote){$("#pollMsg").textContent="لقد صوّت بالفعل على هذا الجهاز.";return;}
+ pollVote=b.dataset.poll;pollCounts[pollVote]=(pollCounts[pollVote]||0)+1;
+ safeWrite("az_poll",pollVote);safeWrite("az_poll_counts",pollCounts);
+ renderPoll();
+}));
+renderPoll();
 
-let toastTimer;function toast(msg){const el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2200)}
-renderQuestion();renderPoll();renderFanPosts();
+const navLinks=$$("#mainnav a");
+const observer=new IntersectionObserver(entries=>{
+ entries.forEach(entry=>{
+  if(entry.isIntersecting){
+   navLinks.forEach(a=>a.classList.toggle("active",a.getAttribute("href")==="#"+entry.target.id));
+  }
+ });
+},{rootMargin:"-25% 0px -65% 0px"});
+$$("main section[id]").forEach(section=>observer.observe(section));
 </script>
-</body></html>
+</body>
+</html>
